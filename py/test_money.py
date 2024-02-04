@@ -63,5 +63,6 @@ class TestMoney(unittest.TestCase):
         ):
             portfolio.evaluate("Kalganid")
 
+
 if __name__ == '__main__':
     unittest.main()

@@ -80,6 +80,3 @@ class TestMoney(unittest.TestCase):
         tenEuros = Money(10, "EUR")
         with self.assertRaisesRegex(Exception, "EUR->Kalganid"):
             self.bank.convert(tenEuros, "Kalganid")
-
-if __name__ == '__main__':
-    unittest.main()
